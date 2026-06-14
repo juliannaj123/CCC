@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 87, 224);
+}
+
+#cyce{
+    height: 50vh;
+
+    border: groove pink 15px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+button{
+    height: 70px;
+    width: 90px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+    background-color: pink;
+    border: outset 8px pink;
+}
+#book{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: pink;
+    border: dotted 8px white;
+    border-radius: 2px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
